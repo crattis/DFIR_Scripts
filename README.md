@@ -4,12 +4,13 @@ Scripts (shell, python, etc), I wrote for use in different DFIR related activiti
 ## Computer Ping (Python).
   This script is designed to ping a host name or ip address for up to 60 minutes, once every 10 minutes. It stops when it can either ping the box, or when the hour is up. The script will load a text file when the script completes.
 
-There are three versions of the script, depending on the environment
- * lComputerPing.py - This is for use on GNU/Linux based systems.
- * cwComputerPing.py - For use on Windows computers with Cygwin.
- * wComputerPing.py - For Windows running Python.
+  This was rewritten to work on Windows10, Cygwin on Windows10, OSX and Linux.
+
+  New version is under dfir_scripts>dfir_scripts>computer_ping.py - Still in testing for OSX. Other three have been shown to work.
  
- Linux on Windows (Ubuntu on Windows) does not appear to support ping, when this was tested.
+  Have not tried on Windows Subsystem Linux yet, need to check that. Previous attempts to use ping under WSL failed.
+
+  Original scripts under computer_ping folder are considered deprecated and will be removed when all updates are finished.
 
 ## Base64 and Hex decoders (Python and compiled exe for Windows).
   Similar to the 2 shell scripts below, but written in python and use a file instead of a command line argument (by request).
