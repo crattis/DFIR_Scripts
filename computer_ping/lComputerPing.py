@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# computer_ping.py a sinple ping to see if a box is up or not.
+# computer_ping.py a simple ping to see if a box is up or not.
 
 # load needed modules
 import os, time, subprocess, sys

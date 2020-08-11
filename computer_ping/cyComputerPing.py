@@ -1,5 +1,5 @@
 #! python3
-# computer_ping.py a sinple ping to see if a box is up or not.
+# computer_ping.py a simple ping to see if a box is up or not.
 # This version is for Windows running Python under Cygwin.
 
 # load needed libraries
